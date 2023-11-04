@@ -1,14 +1,7 @@
 import React from 'react';
 import './Contact.css';
-import { MdCall, BsFillChatDotsFill, HiChatBubbleBottomCenter } from 'react-icons/all';
-import ContactMode from './ContactMode.jsx'; 
-
-const modes = [
-  { icon: <MdCall size={25} />, type: 'Call', number: '+250 780 608 133', action: 'Call Now' },
-  { icon: <BsFillChatDotsFill size={25} />, type: 'Chat', number: '+250 780 608 133', action: 'Chat Now' },
-  { icon: <BsFillChatDotsFill size={25} />, type: 'Video Call', number: '+250 780 608 133', action: 'Video Call Now' },
-  { icon: <HiChatBubbleBottomCenter size={25} />, type: 'Message', number: '+250 780 608 133', action: 'Message Now' },
-];
+import { MdCall, BsFillChatDotsFill, HiChatBubbleBottomCenter } from 'react-icons/md'; // Fix: Import from 'react-icons/md'
+import ContactMode from './ContactMode'; // Fix: Remove file extension
 
 const Contact = () => {
   return (
@@ -19,13 +12,80 @@ const Contact = () => {
           <span className="orangeText">Our Contacts</span>
           <span className="primaryText">Easy to Contact us</span>
           <span className="secondaryText">
-            We're always ready to help by providing the best services for you. We believe a good place to live can make your life better.
+            We always ready to help by providing the best services for you. We believe a good place to live can make your life better.
           </span>
 
-          {/* Other mode */}
-          {modes.map((mode, index) => (
-            <ContactMode key={index} {...mode} />
-          ))}
+          {/* first row */}
+          <div className="flexStart contactModes">
+            <div className="flexcolstart row">
+              <div className="flexColcenter mode">
+                <div className="flexstart">
+                  <div className="flexCenter icon">
+                    <MdCall size={25} />
+                  </div>
+                  <div className="flexColstart detail">
+                    <span className="primaryText">Call</span>
+                    <span className="secondaryText">+250 780 608 133</span>
+                  </div>
+                </div>
+                <div className="flexCenter Button">Call Now</div>
+              </div>
+            </div>
+          </div>
+
+          {/* second mode */}
+          <div className="flexcolStart contactModes">
+            <div className="flexcolstart row">
+              <div className="flexColcenter mode">
+                <div className="flexstart">
+                  <div className="flexCenter icon">
+                    <BsFillChatDotsFill size={25} />
+                  </div>
+                  <div className="flexColstart detail">
+                    <span className="primaryText">Chat</span>
+                    <span className="secondaryText">+250 780 608 133</span>
+                  </div>
+                </div>
+                <div className="flexCenter Button">Chat Now</div>
+              </div>
+            </div>
+          </div>
+
+          {/* second row */}
+          <div className="flexStart contactModes">
+            <div className="flexcolstart row">
+              <div className="flexColcenter mode">
+                <div className="flexstart">
+                  <div className="flexCenter icon">
+                    <BsFillChatDotsFill size={25} />
+                  </div>
+                  <div className="flexColstart detail">
+                    <span className="primaryText">Video Call</span>
+                    <span className="secondaryText">+250 780 608 133</span>
+                  </div>
+                </div>
+                <div className="flexCenter Button">Video Call Now</div>
+              </div>
+            </div>
+          </div>
+
+          {/* fourth mode */}
+          <div className="flexcolStart contactModes">
+            <div className="flexcolstart row">
+              <div className="flexColcenter mode">
+                <div className="flexstart">
+                  <div className="flexCenter icon">
+                    <HiChatBubbleBottomCenter size={25} />
+                  </div>
+                  <div className="flexColstart detail">
+                    <span className="primaryText">Message</span>
+                    <span className="secondaryText">+250 780 608 133</span>
+                  </div>
+                </div>
+                <div className="flexCenter Button">Message Now</div>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* right side */}
