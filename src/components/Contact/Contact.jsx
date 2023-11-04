@@ -2,7 +2,7 @@ import React from 'react';
 import { MdCall } from 'react-icons/md';
 import { BsFillChatDotsFill } from 'react-icons/bs';
 import { HiChatBubbleBottomCenter } from 'react-icons/hi2';
-import {ContactMode} from './ContactMode';
+import {ContactMode} from './ContactMode.jsx';
 
 const Contact = () => {
     return (
