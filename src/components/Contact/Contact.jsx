@@ -1,8 +1,9 @@
 import React from 'react';
+import './Contact.css';
 import { MdCall } from 'react-icons/md';
 import { BsFillChatDotsFill } from 'react-icons/bs';
 import { HiChatBubbleBottomCenter } from 'react-icons/hi2';
-import {ContactMode} from './ContactMode.jsx';
+import ContactMode from './ContactMode';
 
 const Contact = () => {
     return (
