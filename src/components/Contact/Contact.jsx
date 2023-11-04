@@ -25,7 +25,7 @@ const Contact = () => {
                   <div className="flexCenter icon">
                     <MdCall size={25} />
                   </div>
-                  <div className="flexColstart detail">
+                  <div className="flexstart detail">
                     <span className="primaryText">Call</span>
                     <span className="secondaryText">+250 780 608 133</span>
                   </div>
@@ -51,7 +51,7 @@ const Contact = () => {
             </div>
 
             {/* Video Call mode */}
-            <div className="flexcolstart row">
+            <div className="flexstart row">
               <div className="flexColcenter mode">
                 <div className="flexstart">
                   <div className="flexCenter icon">
