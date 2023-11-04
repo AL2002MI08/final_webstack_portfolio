@@ -4,6 +4,7 @@ import './App.css'
 import Companies from './components/Companies/Companies';
 import Residencies from './components/Residencies/Residencies';
 import About from './components/About/About';
+import Contact from './components/Contact/Contact';
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
       <Companies/>
       <Residencies/>
       <About/>
+      <Contact/>
     </div>
   );
 }
