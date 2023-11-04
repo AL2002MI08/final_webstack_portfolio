@@ -1,9 +1,9 @@
 import React from 'react';
 import './Contact.css';
-import { MdCall, BsFillChatDotsFill, HiChatBubbleBottomCenter } from 'react-icons/md'; // Fix: Import from 'react-icons/md'
-import ContactMode from './ContactMode'; // Fix: Remove file extension
+import { MdCall, BsFillChatDotsFill, HiChatBubbleBottomCenter } from 'react-icons/md'; 
+import Contact from './Contact';
 
-const Contact = () => {
+ Contact = () => {
   return (
     <section className="c-wrapper">
       <div className="paddings innerWidth flexCenter c-container">
