@@ -1,21 +1,20 @@
 import React from 'react';
 import './Contact.css';
-import { MdCall, BsFillChatDotsFill, HiChatBubbleBottomCenter } from 'react-icons/md'; 
-import Contact from './Contact';
+import { MdCall, BsFillChatDotsFill, HiChatBubbleBottomCenter } from 'react-icons/md';
 
- Contact = () => {
+const Contact = () => {
   return (
     <section className="c-wrapper">
       <div className="paddings innerWidth flexCenter c-container">
-        {/* left side */}
+        {/* Left side */}
         <div className="flexColstart c-left">
           <span className="orangeText">Our Contacts</span>
           <span className="primaryText">Easy to Contact us</span>
           <span className="secondaryText">
-            We always ready to help by providing the best services for you. We believe a good place to live can make your life better.
+            We're always ready to help by providing the best services for you. We believe a good place to live can make your life better.
           </span>
 
-          {/* first row */}
+          {/* First row */}
           <div className="flexStart contactModes">
             <div className="flexcolstart row">
               <div className="flexColcenter mode">
@@ -33,7 +32,7 @@ import Contact from './Contact';
             </div>
           </div>
 
-          {/* second mode */}
+          {/* Second mode */}
           <div className="flexcolStart contactModes">
             <div className="flexcolstart row">
               <div className="flexColcenter mode">
@@ -51,7 +50,7 @@ import Contact from './Contact';
             </div>
           </div>
 
-          {/* second row */}
+          {/* Second row */}
           <div className="flexStart contactModes">
             <div className="flexcolstart row">
               <div className="flexColcenter mode">
@@ -69,7 +68,7 @@ import Contact from './Contact';
             </div>
           </div>
 
-          {/* fourth mode */}
+          {/* Fourth mode */}
           <div className="flexcolStart contactModes">
             <div className="flexcolstart row">
               <div className="flexColcenter mode">
@@ -88,7 +87,7 @@ import Contact from './Contact';
           </div>
         </div>
 
-        {/* right side */}
+        {/* Right side */}
         <div className="c-right">
           <div className="image-container">
             <img src="./contact.jpg" alt="" />
