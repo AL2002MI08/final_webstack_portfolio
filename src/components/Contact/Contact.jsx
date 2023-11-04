@@ -1,7 +1,7 @@
 import React from 'react';
 import './Contact.css';
-import { MdCall, BsFillChatDotsFill, HiChatBubbleBottomCenter } from 'react-icons/md'; 
-import ContactMode from './ContactMode'; 
+import { MdCall, BsFillChatDotsFill, HiChatBubbleBottomCenter } from 'react-icons/all';
+import ContactMode from './ContactMode.jsx'; 
 
 const modes = [
   { icon: <MdCall size={25} />, type: 'Call', number: '+250 780 608 133', action: 'Call Now' },
