@@ -1,58 +1,63 @@
-.c-container{
+.c-container {
+    display: flex;
     justify-content: space-between;
-
-}
-
-.c-container>div{
-    flex:1
-}
-
-.c-right{
+  }
+  
+  .c-right {
     width: 100%;
-}
-
-.c-left{
-    gap: 0 0.5rem;
-}
-.contactModes{
-    margin-top: 0.2rem;
-    gap: 1rem;
-}
-
-.contactModes .row{
+    max-width: 400px;
+  }
+  
+  .c-left {
     gap: 1.5rem;
-}
-
-.mode{
-    width: 16rem;
-    padding: 1rem;
-    border-radius: 5px;
+  }
+  
+  .contactModes {
+    margin-top: 1rem;
+    gap: 1.5rem;
+  }
+  
+  .contactModes .row {
     gap: 1rem;
-    transition: all 300ms ease-in;
-    border:0.8px solid rgba(128, 128, 128, 0.143)
-}
-.mode .button{
+  }
+  
+  .mode {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: transform 300ms ease-in, border 300ms ease-in;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .mode .button {
     width: 100%;
     background: var(--lightBlue);
     color: var(--blue);
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 600;
-}
-
-.mode >:nth-child(1)
-{
-    width: 100%;
-    gap: 1.6rem;
-}
-
-.mode .detail .primaryText{
-    font-size: 1.1rem;
-    font-weight: 600;
-}
-
-.mode .button:hover{
-    scale: 1.1;
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .mode:hover {
+    transform: scale(1.05);
+    border: 1px solid rgba(128, 128, 128, 0.5);
+  }
+  
+  .mode .detail .primaryText {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  
+  .mode .button:hover {
+    scale:1,1;
     background: var(--blue-gradient);
     color: white;
     scale: 0.8;
-}
+  }
+  
