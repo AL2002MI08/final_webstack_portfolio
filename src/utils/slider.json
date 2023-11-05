@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Rebero Jardin",
+    "price": "237,000",
+    "detail": "Rebero Street XVII No.200, Kimihurura, Reber, Kacyiru, 234 House",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Gikondo Garden",
+    "price": "96,000",
+    "detail": "Gikondo Street XVII No.215, Gikondo, Reber, Kacyiru, 462 House",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Nyarutarama St",
+    "price": "105,000",
+    "detail": "Nyarutarama Street XVII No.265, Kimihurura, Reber, Kacyiru, 442 House",
+    "image": "./r3.png"
+  },
+  {
+    "name": "Gahanga Park",
+    "price": "147,000",
+    "detail": "Gahanga Street XVII No.209, Kimihurura, Reber, Kacyiru, 402 House",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Gisa Garden City",
+    "price": "66,000",
+    "detail": "Gasata Street XVII No.317, Kibagabaga, Reber, Kacyiru, 492 House",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Iwacu Kacyiru St",
+    "price": "255,000",
+    "detail": "Kacyiru Street XVII No.123, Kimihurura, Reber, Kacyiru, 564 House",
+    "image": "./r3.png"
+  }
+]
