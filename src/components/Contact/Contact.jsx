@@ -25,7 +25,7 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className='primaryText'>Call</span>
-                    <span className='secondaryText'>078 673 5111</span>
+                    <span className='secondaryText'>009 0673 5111</span>
                   </div>
                 </div>
                 <div className="flexCenter btn">Call Now</div>
@@ -41,14 +41,14 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className='primaryText'>Chat</span>
-                    <span className='secondaryText'>078 673 5111</span>
+                    <span className='secondaryText'>009 0673 5111</span>
                   </div>
                 </div>
                 <div className="flexCenter btn">Chat Now</div>
               </div>
             </div>
 
-            {/* 2nd row */}
+            {/* Videocall section */}
 
             <div className="flexStart row">
               <div className="flexColCenter mode">
@@ -58,13 +58,13 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className='primaryText'>Video Call</span>
-                    <span className='secondaryText'>078 673 5111</span>
+                    <span className='secondaryText'>009 0673 5111</span>
                   </div>
                 </div>
                 <div className="flexCenter btn">Video Call Now</div>
               </div>
 
-              {/* 2nd row */}
+              {/* Message section */}
 
 
               <div className="flexColCenter mode">
@@ -74,7 +74,7 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className='primaryText'>Message</span>
-                    <span className='secondaryText'>078 673 5111</span>
+                    <span className='secondaryText'>009 0673 5111</span>
                   </div>
                 </div>
                 <div className="flexCenter btn">Message Now</div>
